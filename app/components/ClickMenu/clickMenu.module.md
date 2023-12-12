@@ -1,0 +1,52 @@
+```css
+
+.iconWrapper {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 18px !important;
+  height: 18px !important;
+  -webkit-box-shadow: 0 0 0 1px rgb(201 201 204 / 48%);
+  box-shadow: 0 0 0 1px rgb(201 201 204 / 48%);
+  border-radius: 5px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: #fff;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  position: absolute;
+}
+
+
+```
+
+```mermaid
+
+Here is a possible Mermaid Markdown overview for the given Go file:
+```mermaid
+graph LR
+  .iconWrapper[css] --> .icon[css]
+  .iconWrapper[ms] --> .icon[ms]
+  .iconWrapper[go] --> .icon[go]
+  .iconWrapper[css] --> .icon[css]
+  .iconWrapper[ms] --> .icon[ms]
+  .iconWrapper[go] --> .icon[go]
+  .icon[css] --> .icon[css]
+  .icon[ms] --> .icon[ms]
+  .icon[go] --> .icon[go]
+  .icon[css] --> .icon[css]
+  .icon[ms] --> .icon[ms]
+  .icon[go] --> .icon[go]
+  .icon[css] --> .icon[css]
+  .icon[ms] --> .icon[ms]
+  .icon[go] --> .icon[go]
+  .icon[css] --> .icon[css]
+  .icon[ms] --> .icon[ms]
+
+```

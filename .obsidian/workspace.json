@@ -1,0 +1,254 @@
+{
+  "main": {
+    "id": "9f97b6b78c398793",
+    "type": "split",
+    "children": [
+      {
+        "id": "31df1ff68162c9e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6477c0ca2c0e43cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian_Pages.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bdb83beed647d276",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian_Pages.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fad7c818480c2c5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Manifesto.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "75259e1220f25b0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Storyboards.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cf0f4b0e0439736b",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Untitled 2.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d8417210c527876a",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a1f8dca3abcd803",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cf0c7bc86f8f4832",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fe7ab13fd4adaaa9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#site",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a62456dfd78fe0c0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "bb388096ac351dd1",
+    "type": "split",
+    "children": [
+      {
+        "id": "832ba29692ff7b60",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ad016d1dd5ec266b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Manifesto.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "027a2861f705b83c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Manifesto.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "31946c19447c06c6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9cb51a25e14f36a4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Manifesto.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "fad7c818480c2c5e",
+  "lastOpenFiles": [
+    "Pasted image 20231119222420.png",
+    "migrations_archive",
+    "Pasted image 20231119123513.png",
+    "Obsidian_Pages.md",
+    "Manifesto.md",
+    "v3/app/components/Mermaid.tsx",
+    "v3/node_modules/@types/d3-scale-chromatic/package.json",
+    "v3/node_modules/@types/d3-scale/package.json",
+    "v3/node_modules/@types/d3-scale-chromatic/index.d.ts",
+    "v3/node_modules/@types/d3-scale-chromatic/README.md",
+    "v3/node_modules/@types/d3-scale/index.d.ts",
+    "v3/node_modules/@types/d3-scale-chromatic/LICENSE",
+    "v3/node_modules/@types/d3-scale/LICENSE",
+    "v3/node_modules/@types/d3-scale/README.md",
+    "v3/node_modules/uvu/diff/index.js",
+    "v3/node_modules/uvu/diff/index.mjs",
+    "v3/node_modules/uvu/readme.md",
+    "v3/node_modules/unist-util-stringify-position/readme.md",
+    "v3/node_modules/uuid/README.md",
+    "v3/node_modules/uuid/LICENSE.md",
+    "v3/node_modules/uuid/CONTRIBUTING.md",
+    "v3/node_modules/uuid/CHANGELOG.md",
+    "v3/node_modules/web-worker/README.md",
+    "v3/node_modules/ts-dedent/README.md",
+    "v3/node_modules/ts-dedent/HISTORY.md",
+    "v3/node_modules/stylis/README.md",
+    "v3/node_modules/safer-buffer/Readme.md",
+    "v3/node_modules/safer-buffer/Porting-Buffer.md",
+    "v3/node_modules/sade/readme.md",
+    "v3/node_modules/rw/README.md",
+    "v3/node_modules/robust-predicates/README.md",
+    "v3/node_modules/lodash/release.md",
+    "v3/node_modules/lodash/README.md",
+    "v3/node_modules/non-layered-tidy-tree-layout/screenshots/1.png",
+    "v3/node_modules/non-layered-tidy-tree-layout/README.md",
+    "v3/node_modules/micromark-util-normalize-identifier/readme.md",
+    "v3/node_modules/micromark-util-types/readme.md",
+    "v3/node_modules/mri/readme.md",
+    "v3/node_modules/layout-base/layout-schema.png",
+    "v3/node_modules/cytoscape-fcose/node_modules/layout-base/layout-schema.png",
+    "v3/node_modules/cytoscape-fcose/demo/incrementalConstraints.gif",
+    "v3/node_modules/cytoscape-fcose/demo/demo.gif",
+    "v3/images/photos/avatars/avatar-9.png",
+    "v3/images/photos/avatars/avatar-8.png",
+    "v3/images/photos/avatars/avatar-7.png",
+    "v3/images/photos/avatars/avatar-6.png",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas",
+    "Untitled.canvas"
+  ]
+}
