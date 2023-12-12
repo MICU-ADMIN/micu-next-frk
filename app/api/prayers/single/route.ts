@@ -1,0 +1,30 @@
+import { getSession } from "@/app/_helpers/api/helpers";
+import { addServerCacheValue, deleteFromServerCache, getServerCacheValue } from "@/app/_helpers/api/servercache";
+import { NextRequest, NextResponse } from "next/server";
+
+//@ts-expect-error
+import { DBConnection } from "@/app/_helpers/api/configs";
+//Get current prayer
+export const GET = async (req: NextRequest, res: Response) => {
+  try {
+    const conn = await DBConnection();
+    const session = await getSession(conn);
+    if (!session?.establishmentId) return NextResponse.redirect("/login?unauthorised=true");
+
+    const id = req.nextUrl.searchParams.get("id");
+
+    const cachedData = await getServerCacheValue("prayer" + id);
+    if (cachedData) return NextResponse.json(cachedData);
+
+    const [prayer] = (await (
+      await conn
+    ).query("SELECT id, title, description, timesData, userId, createdAt, updatedAt, deletedAt, FROM Prayer WHERE id = ?", [id])) as any;
+
+    addServerCacheValue(prayer, "prayer" + id);
+
+    return NextResponse.json(prayer[0]);
+  } catch (err) {
+    console.log(err);
+    return NextResponse.json({ message: "There was an error", errors: true }, { status: 500 });
+  }
+};
